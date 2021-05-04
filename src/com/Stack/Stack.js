@@ -49,3 +49,8 @@ function Stack(size) {
 		},
 	});
 }
+
+const st = new Stack(10);
+st.list = [1, 2, 3]; //this will not be allowed
+st.push(2);
+console.log(st.peek());

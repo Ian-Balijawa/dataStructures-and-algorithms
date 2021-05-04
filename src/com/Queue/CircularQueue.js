@@ -1,4 +1,4 @@
-const Queue = require('./Queue.js');
+import { Queue } from './Queue.js';
 
 class CircularQueue extends Queue {
 	constructor(size) {

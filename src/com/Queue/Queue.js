@@ -1,6 +1,6 @@
 const _list = new WeakMap();
 
-class Queue {
+export class Queue {
 	constructor(size) {
 		_list.set(this, []);
 		const queueList = _list.get(this);

@@ -5,13 +5,11 @@ class Queue {
 		_queueList.set(this, []);
 		this.size = size;
 		enqueue = value => {
-			if (value && !this.isFull()) {
+			if (value && !this.isFull()) 
 				_queueList.get(this).push(value);
-			} else {
 				throw new Error(
 					'Queue is already Full. Cannot add more elements'
 				);
-			}
 		};
 
 		dequeue = () => {

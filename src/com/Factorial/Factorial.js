@@ -39,4 +39,5 @@ class Factorial {
 	}
 }
 
-module.exports = new Factorial();
+// module.exports = new Factorial();
+module.exports = Factorial;
